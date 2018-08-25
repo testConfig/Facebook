@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 25 14:54:36 EDT 2018</td>
+<td>Started on:</td><td>Sat Aug 25 15:53:48 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30698 ms)</td>
+<tr><td>Total time:</td><td>69 seconds (69862 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,7 +76,7 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='runner.TestRunner.feature()'><b>feature</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: FaceBook Login Functionality</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [The email you’ve entered doesn’t match any account.] but found [The email or phone number you’ve entered doesn’t match any account. Sign up for an account.]
+<td><div><pre>cucumber.runtime.CucumberException: junit.framework.ComparisonFailure: expected:&lt;...or phone number you’ve entered doesn’t match any account. Sign up for an...&gt; but was:&lt;...you’ve entered doesn’t match any...&gt;
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -103,17 +103,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.AssertionError: expected [The email you’ve entered doesn’t match any account.] but found [The email or phone number you’ve entered doesn’t match any account. Sign up for an account.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at steps.TC003_LoginWithInValidUserNameAndValidPass.the_email_you_ve_entered_doesn_t_match_any_account_appear(TC003_LoginWithInValidUserNameAndValidPass.java:35)
+Caused by: junit.framework.ComparisonFailure: expected:&lt;...or phone number you’ve entered doesn’t match any account. Sign up for an...&gt; but was:&lt;...you’ve entered doesn’t match any...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at steps.TC003_LoginWithInValidUserNameAndValidPass.the_email_you_ve_entered_doesn_t_match_any_account_appear(TC003_LoginWithInValidUserNameAndValidPass.java:37)
 	at ?.Then The email you’ve entered doesn’t match any account -appear(faceBook-Login.feature:21)
-</pre></div><a href='#' onClick='toggleBox("stack-trace943666520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace943666520'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [The email you’ve entered doesn’t match any account.] but found [The email or phone number you’ve entered doesn’t match any account. Sign up for an account.]
+</pre></div><a href='#' onClick='toggleBox("stack-trace742568993", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace742568993'><pre>cucumber.runtime.CucumberException: junit.framework.ComparisonFailure: expected:&lt;...or phone number you’ve entered doesn’t match any account. Sign up for an...&gt; but was:&lt;...you’ve entered doesn’t match any...&gt;
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -140,17 +136,13 @@ Caused by: java.lang.AssertionError: expected [The email you’ve entered doesn’t 
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.AssertionError: expected [The email you’ve entered doesn’t match any account.] but found [The email or phone number you’ve entered doesn’t match any account. Sign up for an account.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at steps.TC003_LoginWithInValidUserNameAndValidPass.the_email_you_ve_entered_doesn_t_match_any_account_appear(TC003_LoginWithInValidUserNameAndValidPass.java:35)
+Caused by: junit.framework.ComparisonFailure: expected:&lt;...or phone number you’ve entered doesn’t match any account. Sign up for an...&gt; but was:&lt;...you’ve entered doesn’t match any...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at steps.TC003_LoginWithInValidUserNameAndValidPass.the_email_you_ve_entered_doesn_t_match_any_account_appear(TC003_LoginWithInValidUserNameAndValidPass.java:37)
 	at ?.Then The email you’ve entered doesn’t match any account -appear(faceBook-Login.feature:21)
 </pre></div></td>
-<td>30</td>
+<td>68</td>
 <td>runner.TestRunner@59f99ea</td></tr>
 </table><p>
 </body>

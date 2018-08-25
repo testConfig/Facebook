@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Ahammed Sorif\AppData\Local\Temp\testng-eclipse-1950487083\testng-customsuite.xml</span>
+                    <span>C:\Users\Ahammed Sorif\AppData\Local\Temp\testng-eclipse-1116442815\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,7 +129,7 @@
                   </a> <!-- feature(FaceBook Login Functionality) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(FaceBook Login Functionality)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [The email you’ve entered doesn’t match any account.] but found [The email or phone number you’ve entered doesn’t match any account. Sign up for an account.]
+                  <div class="stack-trace">cucumber.runtime.CucumberException: junit.framework.ComparisonFailure: expected:&lt;...or phone number you’ve entered doesn’t match any account. Sign up for an...&gt; but was:&lt;...you’ve entered doesn’t match any...&gt;
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -156,14 +156,10 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.AssertionError: expected [The email you’ve entered doesn’t match any account.] but found [The email or phone number you’ve entered doesn’t match any account. Sign up for an account.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at steps.TC003_LoginWithInValidUserNameAndValidPass.the_email_you_ve_entered_doesn_t_match_any_account_appear(TC003_LoginWithInValidUserNameAndValidPass.java:35)
+Caused by: junit.framework.ComparisonFailure: expected:&lt;...or phone number you’ve entered doesn’t match any account. Sign up for an...&gt; but was:&lt;...you’ve entered doesn’t match any...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at steps.TC003_LoginWithInValidUserNameAndValidPass.the_email_you_ve_entered_doesn_t_match_any_account_appear(TC003_LoginWithInValidUserNameAndValidPass.java:37)
 	at ✽.Then The email you’ve entered doesn’t match any account -appear(faceBook-Login.feature:21)
 
 </div> <!-- stack-trace -->
@@ -176,7 +172,7 @@ Caused by: java.lang.AssertionError: expected [The email you’ve entered doesn�
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ahammed Sorif\AppData\Local\Temp\testng-eclipse-1950487083\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Ahammed Sorif\AppData\Local\Temp\testng-eclipse-1116442815\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -237,12 +233,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'runner.TestRunner')
-data.setCell(0, 3, 30260);
+data.setCell(0, 3, 68769);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -277,11 +273,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">feature(FaceBook Login Functionality)</span>
-                <span class="method-start">294 ms</span>
+                <span class="method-start">438 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">30564 ms</span>
+                <span class="method-start">69207 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
