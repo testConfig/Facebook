@@ -32,7 +32,7 @@ public class TC003_LoginWithInValidUserNameAndValidPass extends BaseUtil {
 	    else{
 	    	System.out.print("====Test is Fail ====" + this.getClass().getName());
 	    };
-	    Assert.assertEquals(login.WorngPassCheck(), "The email or phone number you’ve entered doesn’t match any account. Sign up for an account.");
+	    Assert.assertEquals(login.WorngPassCheck(), "The email or phone number you’ve entered doesn’t Sign up for an account.");
 	}
 
 }
