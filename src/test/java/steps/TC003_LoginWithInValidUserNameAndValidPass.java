@@ -17,10 +17,7 @@ public class TC003_LoginWithInValidUserNameAndValidPass extends BaseUtil {
 		this.base=base;
 	}
 	
-	
-	
-	
-	@When("^Enter Invalid UserName and Valid PassWord$")
+	@When("^Enter Invalid_UserName and Valid_PassWord$")
 	public void enter_Invalid_UserName_and_Valid_PassWord() throws Throwable {
 		
 	    login=new LoginPage(base.Driver);
