@@ -1,6 +1,7 @@
 package steps;
 
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import Base.BaseUtil;
 import cucumber.api.java.en.Then;
@@ -33,7 +34,7 @@ public class TC003_LoginWithInValidUserNameAndValidPass extends BaseUtil {
 	    else{
 	    	System.out.print("====Test is Fail ====" + this.getClass().getName());
 	    }
-	    Assert.assertEquals(login.WorngPassCheck(), "The email you’ve entered doesn’t match any account.");
+	   
 	}
 
 }
